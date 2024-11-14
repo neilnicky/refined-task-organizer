@@ -21,7 +21,7 @@ function AddTodo() {
         type="text"
         value={text}
         onChange={(e) => setText(e.target.value)}
-        placeholder="Add a new todo"
+        placeholder="Add a new task"
       />
       <button onClick={hangleAddTodo}>Add Todo</button>
     </div>
